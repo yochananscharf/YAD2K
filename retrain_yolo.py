@@ -37,7 +37,7 @@ argparser.add_argument(
 argparser.add_argument(
     '-c',
     '--classes_path',
-    help='path to classes file, defaults to pascal_classes.txt',
+    help='path to classes file, defaults to underwater_classes.txt',
     default=os.path.join('..', 'DATA', 'underwater_classes.txt'))
 
 # Default anchor boxes
